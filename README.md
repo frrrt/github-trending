@@ -21,7 +21,7 @@ You can find a production version of this here: https://mzt1.com/github-trending
 
 # Performance
 
-The performance should be exceptional, the most prominent fact being that everything needed for rendering the page is included in the intial .html file, no additional roundtrips for css or jss needed. React and everything else JS related will be loaded async, the user won't notice this except when having a very slow internet connection. But even then the bundle sizes are fairly small and http2 boosted.
+The performance should be exceptional, the most prominent fact being that everything needed for rendering the page is included in the intial .html file, no additional roundtrips for css or js needed. React and everything else JS related will be loaded async, the user won't notice this except when having a very slow internet connection. But even then the bundle sizes are fairly small and http2 boosted.
 
 Lighthouse scores for performance are around 98-100 for desktop and 83-87 for mobile. The load event fires around 350ms-500ms with hight speed internet, 2.5s with slow 3g.
 
