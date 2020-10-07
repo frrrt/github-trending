@@ -47,3 +47,5 @@ Page                                                           Size     First Lo
 
 - Zero layout shift / content jumping!
 - Responsive, even in landscape mode.
+- CCS compliant: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmzt1.com%2Fgithub-trending&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
+- HTML compliant: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmzt1.com%2Fgithub-trending
