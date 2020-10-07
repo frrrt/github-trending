@@ -1,0 +1,7 @@
+.env
+.idea
+.next
+node_modules
+out
+coverage
+yarn-error.log

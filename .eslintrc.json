@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 9,
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "jsx-a11y"
+    ],
+    "rules": {
+        "react/boolean-prop-naming": "error",
+        "react/default-props-match-prop-types": "error",
+        "react/no-unused-prop-types": "error",
+        "react/prop-types": "error",
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props": 0,
+        "arrow-parens": ["error", "as-needed"],
+        "react/jsx-filename-extension": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "complexity": ["error", 4],
+        "max-params": ["error", 3],
+        "max-len": ["error", 200],
+        "max-lines": ["error", { "max": 150, "skipComments": true, "skipBlankLines": true }],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "comma-dangle": ["error", "always-multiline"],
+        "react/jsx-one-expression-per-line": 0
+    },
+    "overrides": [
+        {
+            "files": [ "*spec.js" ],
+            "rules": {
+                "react/jsx-props-no-spreading": 0,
+                "react/display-name": 0,
+                "max-lines": 0
+            }
+        },
+        {
+            "files": [ "*/reducer/*" ],
+            "rules": {
+                "complexity": 0
+            }
+        }
+    ]
+}

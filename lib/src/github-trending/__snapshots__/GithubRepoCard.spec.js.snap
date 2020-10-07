@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GithubRepoCard is rendered correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiCardContent-root"
+    >
+      <div
+        class="MuiTypography-root makeStyles-repoTitle-2 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://github.com/umpfel/mumpf"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="test123"
+        >
+          test123
+        </a>
+      </div>
+      <div
+        class="MuiTypography-root makeStyles-main-3 MuiTypography-body2 MuiTypography-gutterBottom"
+      >
+        <div
+          class="makeStyles-root-4"
+        >
+          <div
+            class="makeStyles-circle-5"
+            style="background-color: rgb(241, 224, 90);"
+          />
+          JavaScript
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeSmall"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19.65 9.04l-4.84-.42-1.89-4.45c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.73 3.67-3.18c.67-.58.32-1.68-.56-1.75zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                />
+              </svg>
+            </span>
+            666
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom"
+      >
+        Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GithubRepoCard is rendered correctly when starred 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-root-6 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiCardContent-root"
+    >
+      <div
+        class="MuiTypography-root makeStyles-repoTitle-7 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://github.com/umpfel/mumpf"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="test123"
+        >
+          test123
+        </a>
+      </div>
+      <div
+        class="MuiTypography-root makeStyles-main-8 MuiTypography-body2 MuiTypography-gutterBottom"
+      >
+        <div
+          class="makeStyles-root-9"
+        >
+          <div
+            class="makeStyles-circle-10"
+            style="background-color: rgb(241, 224, 90);"
+          />
+          JavaScript
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeSmall"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"
+                />
+              </svg>
+            </span>
+            667
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom"
+      >
+        Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25.
+      </p>
+    </div>
+  </div>
+</div>
+`;

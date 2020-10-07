@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoLanguage is rendered correctly 1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+  >
+    <div
+      class="makeStyles-circle-2"
+      style="background-color: rgb(241, 224, 90);"
+    />
+    JavaScript
+  </div>
+</div>
+`;
+
+exports[`RepoLanguage no language given 1`] = `
+<div>
+  <div
+    class="makeStyles-root-3"
+  >
+    <div
+      class="makeStyles-circle-4"
+    />
+    
+  </div>
+</div>
+`;
+
+exports[`RepoLanguage unknown language given 1`] = `
+<div>
+  <div
+    class="makeStyles-root-5"
+  >
+    <div
+      class="makeStyles-circle-6"
+      style="background-color: rgb(204, 204, 204);"
+    />
+    this-language-does-not-exist
+  </div>
+</div>
+`;
