@@ -16,7 +16,7 @@ I think testing the connect function is pointless and testing getStaticProps is 
 # Production version
 
 You can find a production version of this here: https://mzt1.com/github-trending
-(It is slightly different, for instance having PWA support).
+(It is slightly different, for instance having PWA support). You should be able to run the production version locally when doing `yarn build` and `yarn start`.
 
 
 # Performance
@@ -28,6 +28,7 @@ Lighthouse scores for performance are around 98-100 for desktop and 83-87 for mo
 
 # Bundles
 
+```
 Page                                                           Size     First Load JS
 ┌   /_app                                                      0 B              92 kB
 ├ ○ /404                                                       3.44 kB        95.5 kB
@@ -39,6 +40,7 @@ Page                                                           Size     First Lo
   ├ chunks/main.f0e1f9.js                                      7.73 kB
   ├ chunks/pages/_app.0719b7.js                                6.93 kB
   └ chunks/webpack.e06743.js                                   751 B
+```
 
   This also examplyfies the code splitting feature of nextjs.
 
