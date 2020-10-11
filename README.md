@@ -30,19 +30,24 @@ Lighthouse scores for performance are around 98-100 for desktop and 83-87 for mo
 
 ```
 Page                                                           Size     First Load JS
-┌   /_app                                                      0 B              92 kB
-├ ○ /404                                                       3.44 kB        95.5 kB
-└ ● /github-trending (ISR: 10 Seconds)                         47 kB           139 kB
+┌ ● / (ISR: 10 Seconds)                                        46.9 kB         139 kB
+├   /_app                                                      0 B              92 kB
+└ ○ /404                                                       3.44 kB        95.5 kB
 + First Load JS shared by all                                  92 kB
-  ├ chunks/9e9953b74aa128c97b6cfc44bde25beb254e6a41.bf0485.js  26.4 kB
+  ├ chunks/71247caf95475e3ea7f9a0f8a30beb258b23d005.bf0485.js  26.4 kB
   ├ chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.08f371.js  9.98 kB
   ├ chunks/framework.baa41d.js                                 40.2 kB
   ├ chunks/main.f0e1f9.js                                      7.73 kB
   ├ chunks/pages/_app.0719b7.js                                6.93 kB
   └ chunks/webpack.e06743.js                                   751 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
 ```
 
-  This also examplyfies the code splitting feature of nextjs.
+This also examplyfies the code splitting feature of nextjs.
 
 
 # Overall UI
