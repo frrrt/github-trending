@@ -14,7 +14,7 @@ import FilterBar from '../lib/src/github-trending/FilterBar';
 import GithubRepoList from '../lib/src/github-trending/GithubRepoList';
 import GithubTrendingHead from '../lib/src/github-trending/GithubTrendingHead';
 
-export const GithubTrendingPage = ({
+export const IndexPage = ({
     repos,
     starred,
     onToggleStar,
@@ -50,7 +50,7 @@ export const GithubTrendingPage = ({
     );
 };
 
-GithubTrendingPage.propTypes = {
+IndexPage.propTypes = {
     repos: PropTypes.arrayOf(githubRepoPropType).isRequired,
     starred: PropTypes.shape({}).isRequired,
     onToggleStar: PropTypes.func.isRequired,
@@ -94,5 +94,4 @@ export default connect(
     dispatch => bindActionCreators({
         onToggleStar: toggleStar,
     }, dispatch),
-
-)(GithubTrendingPage);
+)(IndexPage);

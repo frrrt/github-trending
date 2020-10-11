@@ -34,7 +34,6 @@ class MyApp extends App {
                 <Head>
                     <title>Github Trending</title>
                     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-                    <link rel="manifest" href="/manifest.json" />
 
                     {/* PWA primary color */}
                     <meta name="theme-color" content={theme.palette.primary.main} />
