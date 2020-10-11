@@ -21,9 +21,9 @@ You can find a production version of this here: https://mzt1.com/github-trending
 
 # Performance
 
-The performance should be exceptional, the most prominent fact being that everything needed for rendering the page is included in the intial .html file, no additional roundtrips for css or jss needed. React and everything else JS related will be loaded async, the user won't notice this except when having a very slow internet connection. But even then the bundle sizes are fairly small and http2 boosted.
+The performance should be exceptional, the most prominent fact being that everything needed for rendering the page is included in the intial .html file, no additional roundtrips for css or js needed. React and everything else JS related will be loaded async, the user won't notice this except when having a very slow internet connection. But even then the bundle sizes are fairly small and http2 boosted.
 
-Lighthouse scores for performance are around 98-100 for desktop and 83-87 for mobile. The load event fires around 350ms-500ms with hight speed internet, 2.5s with slow 3g.
+Lighthouse scores for performance are around 98-100 for desktop and 83-87 for mobile. The load event fires around 350ms-500ms with highspeed internet, 2.5s with slow 3g.
 
 
 # Bundles
@@ -51,3 +51,7 @@ Page                                                           Size     First Lo
 - Responsive, even in landscape mode.
 - CCS compliant: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmzt1.com%2Fgithub-trending&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
 - HTML compliant: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmzt1.com%2Fgithub-trending
+
+
+# Misc
+Most of the "architecture" stuff like _app.js, integrating Material UI, redux and so comes from the NextJS examples: https://github.com/vercel/next.js/tree/canary/examples
